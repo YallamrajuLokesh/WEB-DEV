@@ -1,0 +1,140 @@
+h3 {
+    background-color: yellow;
+    color:red;
+}
+
+li {
+    display: inline;
+    border: 2px solid black;
+    border-style: double;
+    margin: 5px;
+    padding: 10px 20px;
+    list-style-type: none;
+    color: red;
+}
+
+/* Custom list style with user-defined image */
+ul.custom-list {
+    list-style-image: url('pict.png');
+}
+
+.income{
+    background-color: #0ff;
+}
+.expenses{
+    background-color: #f0f;
+}
+
+.profit{
+    background-color: #ff0;
+}
+.home-description{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.home-description:hover .phrase1{
+    
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: normal;
+    color: red;
+    font-size: 18px;
+}
+.home-description:hover .phrase2{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: blue;
+    font-size: 20px;
+}
+.home-description:hover .phrase3{
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: green;
+    font-size: 24px;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-image: url('main-content-bg.jpg');
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+/* Customized Cursor */
+.btn {
+    cursor: pointer;
+}
